@@ -1,31 +1,22 @@
-/*
- * ## Order of Operations Practice
-**Instructions:** Evaluate the following expressions.  You can answer either in this README file, in your own notebook, or on a separate piece of paper.
-### Part 1
-a. 3 * (7 - 4) + 6 / 2
+/*## Problem0
+Make a program that creates two variables: an int and a double.  Follow these instructions in the exact order below.
+1. Create a variable of type `double` and store an int value into it.
+2. Print out the value of the variable.
+3. Run your program and observe the result.
+4. Create a variable of type `int` and store a double value into it.
+5. Print out the value of the variable.
+6. Run myour program and observe the result.
 
-b. ((12 / 3) * (7 - 5) + 4) / 2
+Is it possible to store a double into an int?  Is it possible to store an int into a double?  Explain. */
 
-c. (5 + 2) * (8 - 3) % 2
-
-d. (15 % 4) + (5 / 2) - (3 * 2)
-
-e. 5 * 2 + 4 / 2 % 3
-
-f. (18 - 12) % 3 * (5 - 3 + 2)
-
-g. 6 % (8 - 6 + 2) - (3 * 3) / 3
-
-h. (12 % (5 / 2)) * 3 + (7 - 4)
-
-i. (14 / 2) * 3 + 6 % 2
-
-j. ((15 % 3) / 3) * (7 - 4) + 5
- */
 public class Problem0
 {
   public static void main(String[] args)
   {
-    
+    double num1 = 1;
+    System.out.print(num1);
+    int num2 = 5.0;
+    System.out.print(num2);
+    // no, because Java returns an error
   }
 }
